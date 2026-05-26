@@ -1,0 +1,12 @@
+services:
+  streamlit:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    container_name: streamlit-app
+    cpus: 0.5
+    mem_limit: 1024m
+    ports:
+      - "8501:8501"
+    volumes:
+      - ".:/app:rw"

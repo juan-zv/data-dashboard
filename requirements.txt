@@ -1,0 +1,7 @@
+pandas
+polars
+streamlit
+plotly
+altair
+pyarrow
+great-tables
